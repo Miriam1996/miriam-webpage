@@ -1,5 +1,5 @@
 $(document).ready(function(){
- 	$('#search').click(function() {
+ 	$('#submit').click(function() {
   
   // go to page of projects
  		if($('#selection').val() == 1){
