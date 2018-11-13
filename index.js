@@ -1,5 +1,7 @@
 $(document).ready(function(){
  	$('#submit').click(function() {
+   console.log("clicked");
+   console.log($('#selection').val());
   
   // go to page of projects
  		if($('#selection').val() == 1){
